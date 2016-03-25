@@ -1,47 +1,47 @@
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+@fonts-face {
+  fonts-family: 'Open Sans';
+  fonts-style: normal;
+  fonts-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fontss/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+@fonts-face {
+  fonts-family: 'Open Sans';
+  fonts-style: normal;
+  fonts-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fontss/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(//themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+@fonts-face {
+  fonts-family: 'Roboto';
+  fonts-style: normal;
+  fonts-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//themes.googleusercontent.com/static/fontss/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
 }
 
-@font-face {
-  font-family: 'phantom';
-  src: url('../font/phantom.eot?33740492');
-  src: url('../font/phantom.eot?33740492#iefix') format('embedded-opentype'),
-       url('../font/phantom.woff?33740492') format('woff'),
-       url('../font/phantom.ttf?33740492') format('truetype'),
-       url('../font/phantom.svg?33740492#phantom') format('svg');
-  font-weight: normal;
-  font-style: normal;
+@fonts-face {
+  fonts-family: 'phantom';
+  src: url('../fonts/phantom.eot?33740492');
+  src: url('../fonts/phantom.eot?33740492#iefix') format('embedded-opentype'),
+       url('../fonts/phantom.woff?33740492') format('woff'),
+       url('../fonts/phantom.ttf?33740492') format('truetype'),
+       url('../fonts/phantom.svg?33740492#phantom') format('svg');
+  fonts-weight: normal;
+  fonts-style: normal;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/* Note, that will break hinting! In other OS-es fonts will be not as sharp as it could be */
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'phantom';
-    src: url('../font/phantom.svg?42194940#phantom') format('svg');
+  @fonts-face {
+    fonts-family: 'phantom';
+    src: url('../fonts/phantom.svg?42194940#phantom') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "phantom";
-  font-style: normal;
-  font-weight: normal;
+  fonts-family: "phantom";
+  fonts-style: normal;
+  fonts-weight: normal;
   speak: none;
  
   display: inline-block;
@@ -52,7 +52,7 @@
   /* opacity: .8; */
  
   /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
+  fonts-variant: normal;
   text-transform: none;
      
   /* fix buttons height, for twitter bootstrap */
@@ -63,7 +63,7 @@
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  /* fonts-size: 120%; */
  
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
@@ -77,3 +77,73 @@
 .icon-github-circled:before { content: '\e805'; } /* '' */
 .icon-rss:before { content: '\e806'; } /* '' */
 .icon-mail:before { content: '\e807'; } /* '' */
+
+@fonts-face {
+  fonts-family: 'phantom';
+  src: url('../fonts/phantom.eot?87587603');
+  src: url('../fonts/phantom.eot?87587603#iefix') format('embedded-opentype'),
+       url('../fonts/phantom.woff2?87587603') format('woff2'),
+       url('../fonts/phantom.woff?87587603') format('woff'),
+       url('../fonts/phantom.ttf?87587603') format('truetype'),
+       url('../fonts/phantom.svg?87587603#phantom') format('svg');
+  fonts-weight: normal;
+  fonts-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es fonts will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @fonts-face {
+    fonts-family: 'phantom';
+    src: url('../fonts/phantom.svg?87587603#phantom') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  fonts-family: "phantom";
+  fonts-style: normal;
+  fonts-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  fonts-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* fonts-size: 120%; */
+ 
+  /* fonts smoothing. That was taken from TWBS */
+  -webkit-fonts-smoothing: antialiased;
+  -moz-osx-fonts-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-github:before { content: '\e800'; } /* '' */
+.icon-twitter:before { content: '\e801'; } /* '' */
+.icon-gplus-circled:before { content: '\e802'; } /* '' */
+.icon-gplus:before { content: '\e803'; } /* '' */
+.icon-twitter-circled:before { content: '\e804'; } /* '' */
+.icon-github-circled:before { content: '\e805'; } /* '' */
+.icon-rss:before { content: '\e806'; } /* '' */
+.icon-mail:before { content: '\e807'; } /* '' */
+.icon-lastfm:before { content: '\e808'; } /* '' */
+.icon-linkedin:before { content: '\e809'; } /* '' */
+.icon-instagram:before { content: '\e80a'; } /* '' */
+.icon-network:before { content: '\e80b'; } /* '' */
